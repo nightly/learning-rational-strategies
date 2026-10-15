@@ -1,0 +1,24 @@
+[project]
+name = "pltlf"
+version = "0.2.0"
+description = "Probabilistic rational synthesis with finite-trace temporal logic goals"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.11"
+dependencies = [
+    "flloat==0.3.0",
+    "flax==0.12.8",
+    "graphviz==0.21",
+    "gymnasium==1.4.0",
+    "jax==0.10.2",
+    "numpy==2.4.6",
+    "optax==0.2.8",
+    "pettingzoo==1.27.0",
+    "pygambit==16.7.0",
+    "pygame==2.6.1",
+    "rich==15.0.0",
+    "tqdm==4.70.1",
+]
+
+[project.optional-dependencies]
+cuda = ["jax[cuda12]==0.10.2"]
