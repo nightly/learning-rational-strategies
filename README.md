@@ -6,7 +6,12 @@ The repository covers multi-agent learning with probabilistic finite-trace tempo
 
 If you use our code or theoretical results from our paper in your own work, please use the following citation:
 ```bibtex
-
+@misc{adalat2026rational,
+Author = {Omar Adalat and Edwin Hamel-De le Court and Francesco Belardinelli},
+Title = {Learning Rational Strategies for Temporal Objectives in Multi-Agent Systems},
+Year = {2026},
+Eprint = {arXiv:2610.22287},
+}
 ```
 
 This release includes the eight benchmark tasks, IPPO, recurrent IQL, their PR2 and counterfactual experience replay (CER) variants, handcrafted-reward baselines, and tabular Nash-Q for Stag Hunt.
